@@ -47,7 +47,7 @@ export function Home() {
         <img src="logo.jpg" alt="Your Logo" className="logohome" />
       </header>
       <main className="centerhome">
-        <h1 className="welcome">Welcome to ChatBot!</h1>
+        <h1 className="welcome">Welcome to ChatBot!a</h1>
 
           <button className="button" onClick={() => openPopup('join')}>Join Chatroom</button>
 
