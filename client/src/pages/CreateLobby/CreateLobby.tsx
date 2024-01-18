@@ -66,6 +66,8 @@ export function CreateLobby(props: CreateLobbyProps) {
     if (lobbyId !== '. . . .') {
       const encodedId = encodeURIComponent(lobbyId);
       window.location.href = `chatroom?name=${name}&id=${encodedId}`;
+    } else {
+      window.location.href = `chatroom?name=${name}&id=${'0000'}`;
     }
   };
 
