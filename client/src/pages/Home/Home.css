@@ -121,6 +121,10 @@
   .popup button:hover {
     background-color: #426772;
   }
+
+  .temp {
+    margin-top: 30px;
+  }
   
   @keyframes bounce {
     0%,

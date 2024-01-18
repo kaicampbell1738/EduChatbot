@@ -72,6 +72,7 @@ export function Home() {
         </div>
         )}
 
+        <p className="temp">Full Functionality Avaliable at github.com/kaicampbell1738/EduChatbot</p>
       </main>
     </div>
   );
