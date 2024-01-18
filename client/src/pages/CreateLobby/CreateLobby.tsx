@@ -100,7 +100,7 @@ export function CreateLobby(props: CreateLobbyProps) {
       </div>
 
       <div className="logo-container">
-        <img src="./public/logo.png" alt="Logo" className="logo" />
+        <img src="logo.png" alt="Logo" className="logo" />
       </div>
 
       <button onClick={handleChatroomStart} className="top-right-buttoon">Start Chat</button>

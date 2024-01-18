@@ -44,7 +44,7 @@ export function Home() {
   return (
     <div className="Home">
       <header>
-        <img src="./public/logo.png" alt="Your Logo" className="logohome" />
+        <img src="logo.png" alt="Your Logo" className="logohome" />
       </header>
       <main className="centerhome">
         <h1 className="welcome">Welcome to ChatBot!</h1>
