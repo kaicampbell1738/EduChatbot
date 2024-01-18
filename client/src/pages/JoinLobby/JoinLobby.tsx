@@ -99,7 +99,7 @@ export function JoinLobby(props : JoinLobbyProps) {
       </div>
 
       <div className="logo-container">
-        <img src="./public/logo.png" alt="Logo" className="logo" />
+        <img src={require("./public/logo.png")} alt="Logo" className="logo" />
       </div>
       <a href="home">
         <button className="top-right-button">Quit Chatroom</button>
